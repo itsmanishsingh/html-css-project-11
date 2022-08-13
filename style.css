@@ -1,0 +1,495 @@
+*{
+    margin: 5px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-logo{
+    margin-left: 80px;
+    color: #fff;
+    background-color: #fff;
+    margin-top: 60px;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+
+.nav-items{
+    list-style: none;
+    justify-content: space-around;
+    margin-left: 90px;
+    margin-top: 80px;
+    font-size: 20px;
+    color: rgb(57, 63, 68);
+}
+.active{
+    font-weight: 800;
+}
+
+.nav-items-nav-button{
+    float: right;
+    margin-right: 0px;
+    margin-top: -10px;
+    margin-left: 60px;
+    padding: 10px 20px;
+    border-radius: 5px solid #fff;
+    color: rgb(18, 159, 224);
+    background-color: transparent;
+}
+
+.container1{
+    margin-left: 80px;
+    height: 50vh;
+    margin-top: 80px;
+    /* justify-content: space-between; */
+    /* background-color: rgb(61, 52, 52); */
+}
+
+.container1-left{
+    float: left;
+    margin-left: 40px;
+}
+
+.container1-left-heading{
+    font-size: 40px;
+    margin-right: 50%;
+    
+}
+
+.text1{
+    margin-top: 20px;
+    margin-right: 0px;
+    text-align:initial;
+    color: #000;
+    margin-right: 50%;
+}
+
+.button-1{
+    margin-top: 50px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color:  rgb(18, 159, 224);
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.image-container-1{
+    float: right;
+    height: 40vh;
+    width: 30%;
+    margin-right: 120px;
+    margin-top: 0px;
+    border : 1px solid rgb(18, 159, 224);
+}
+
+/* Container 2  Best Low Cost  */
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    margin-left: 80px;
+    height: 50vh;
+    margin-top: 70px;
+    justify-content: space-between;
+    /* background-color: rgb(83, 58, 58); */
+}
+
+.image-container-2{
+    float: left;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: -60px;
+    height: 50vh;
+    border : 2px solid rgb(18, 159, 224);
+}
+
+.container2-left{
+    margin-left: 70px;
+    margin-right: 100px;
+}
+.container2-left-heading{
+    font-size: 40px;
+    /* margin-right: 10px; */
+}
+
+.text2{
+    margin-top: 20px;
+    margin-right: 0px;
+    text-align:initial;
+    color: #000;
+    margin-right: 50px;
+    
+}
+
+.button-2{
+    margin-top: 50px;
+    padding: 10px 30px;
+    color: #fff;
+    background-color:  rgb(18, 159, 224);
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+/* container 3 
+Number 1 technical support */
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    height: 50vh;
+    margin-top: 80px;
+    justify-content: space-between;
+    /* background-color: rgb(61, 52, 52); */
+}
+
+.container3-left{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+}
+
+.container3-left-heading{
+    font-size: 50px;
+    /* text-align: center; */
+    margin-right: -30px;
+}
+
+.text3{
+    margin-top: 20px;
+    margin-right: 0px;
+    color: rgb(24, 23, 23);
+}
+
+.button-3{
+    margin-top: 50px;
+    color: #fff;
+    background-color:  rgb(18, 159, 224);
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 20px 80px;
+}
+
+.image-container-3{
+   height: 45vh;
+   width: auto;
+   margin-right: 130px;
+   border : 2px solid rgb(18, 159, 224);
+}
+
+
+/* container 4
+services available
+ */
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-top: 60px;
+    /* flex: 1; */
+
+}
+
+.container4-left-heading{
+    flex: 0.5;
+    font-size: 50px;
+}
+
+.text4{
+    flex: 0.5;
+    margin-left: 50px;
+    margin-right: 130px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+/* Container 5
+Technical services  */
+
+.container5{
+    display: flex;
+    flex-direction: row;
+    /* flex: 3; */
+    flex-flow: nowrap;
+    margin-left: 80px;
+    margin-right: 130px;
+    margin-top: 40px;
+}
+
+/* Container 6
+Services price */
+
+.container6{
+    height: 80vh;
+    background-color: #1B98F5;
+}
+
+.container6-center-heading{
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.packages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.container61{
+    background-color: #fff;
+    border-radius: 5px;
+    height: 60vh;
+    justify-content: space-around;
+    /* margin-left: 30px; */
+}
+
+.list{
+    list-style:circle;
+}
+
+.container6-header1{
+    margin-top: 20px;
+    /* background-color: #000; */
+    height: 12vh;
+}
+
+.subscription{
+    display: flex;
+    flex-direction: column;
+}
+
+.subscription h3{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.subscription p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.subscription button{
+    align-content: center;
+    padding: 10px 5px;
+    border-radius: 10px ;
+    border:solid rgb(18, 159, 224);
+    background-color: transparent;
+    color: rgb(18, 159, 224);
+}
+.container6-header2{
+    background-color: #000;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: left center;
+}
+
+
+.container62{
+    background-color: #fff;
+    border-radius: 5px;
+    height: 60vh;
+}
+
+.container63{
+    background-color: #fff;
+    border-radius: 5px;
+    height: 60vh;
+}
+
+.container6-header3{
+    margin-top: 20px;
+    /* background-color: #000; */
+    height: 12vh;
+}
+
+.list{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: space-between;
+}
+
+
+
+
+
+
+/* container 7
+   Customer revview */
+
+.container7{
+    display: 50vh;
+    margin-top: 40px;
+    /* background-color: rgb(88, 53, 53); */
+}
+
+.container7 h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.container7 p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.customer-reviews{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.customer-reviews h6{
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 5px solid rgb(62, 150, 191);
+}
+.review1{
+    flex: 25%;
+    margin-left: 80px;
+    margin-right: 120px;
+    background-color: rgb(193, 228, 224);
+    border-radius: 10px;
+}
+
+.review2{
+    flex: 25%;
+    margin-left: 80px;
+    /* justify-content: space-between; */
+    margin-right: 120px;
+    /* padding-right: 150px; */
+    background-color: rgb(193, 228, 224);
+    border-radius: 10px;
+}
+
+.review3{
+    flex: 25%;
+    margin-left: 80px;
+    margin-right: 120px;
+    background-color: rgb(193, 228, 224);
+    border-radius: 10px;
+}
+
+.review4{
+    flex: 25%;
+    margin-left: 80px;
+    margin-right: 120px;
+    background-color: rgb(193, 228, 224);
+    border-radius: 10px;
+}
+
+.blog-author {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    text-align: left;
+}
+
+/* Container 8 
+   register  */
+
+.container8{
+    /* display: flex;
+    flex-direction: row; */
+    height: 30vh;
+    background-color: #1B98F5;
+    margin-top: 80px;
+    /* margin-left: 80px; */
+}
+
+.registernow{
+    margin-top: 50px;
+    /* font-size: 40px; */
+    margin-right: 50%;
+    margin-left: 10px;
+}
+
+.registernow h1{
+    /* flex: 0.5; */
+    font-size: 40px;
+    margin-right: 50px;
+    margin-left: 90px;
+    text-align: left;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.registernow p{
+    /* flex: 10%; */
+    margin-right: 50px;
+    margin-left: 90px;
+    text-align: left;
+    margin-top: 55px;
+    color: #fff;
+}
+
+.container8 button{
+    float: right;   
+    margin-right: 200px;
+    align-content: center;
+    /* justify-content: center; */
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #fff;
+    margin-top: -100px;
+    border-radius: 10px;
+}
+
+/* Container 9
+Footer  */
+
+.container9{
+    height: 45vh;
+    /* background-color: rgb(104, 73, 73); */
+    /* margin-left: 80px; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    flex: 0.25;
+    margin-top: 60px;
+    margin-left: 80px;
+    /* background-color: #fff; */
+}
+
+.footer-logo p{
+    margin-top: 20px;
+    margin-right: 10px  ;
+}
+
+.footer-menu{
+    margin-top: 60px;
+}
+
+.footer-list{
+    list-style: none;
+    font-size: 20px;
+}
+
+.footer-menu img{
+    height: 10vh;
+    width: auto;
+    margin-right: 130px;
+    border : 2px solid rgb(18, 159, 224);
+}
+
+.footer-menu h3{
+    margin-top: 60px;
+}
