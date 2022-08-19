@@ -1,7 +1,9 @@
-# project -11
+# Project -11
 
+I have used flex, wrap ,position,float and some basic properties of HTML and CSS only.
+***
 
-This project took me 8 hours to finish.
+This project took me 8 hours to finish using HTML and CSS only .
 
 ## [Link]()
 
